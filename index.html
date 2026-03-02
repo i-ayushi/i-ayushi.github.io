@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushi Rani | Software Tester Portfolio</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .skill-tag {
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold gradient-text">AR.</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+            <button onclick="window.location.href='mailto:ayushi.r2092@gmail.com'" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition shadow-lg shadow-blue-500/20">
+                Hire Me
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 space-y-6 text-center md:text-left">
+                <h2 class="text-blue-400 font-semibold tracking-widest uppercase text-sm">Software Tester (QA)</h2>
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                    Hi, I'm <span class="gradient-text">Ayushi Rani</span>
+                </h1>
+                <p class="text-slate-400 text-lg max-w-xl">
+                    Detail-oriented Software Tester with hands-on experience in Manual Testing, Automation basics, and Web QA. I help teams build robust, bug-free applications through meticulous testing and Agile collaboration.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
+                    <!-- Download Resume Button (Link your PDF here) -->
+                    <a href="#" class="flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-lg font-bold hover:bg-slate-200 transition">
+                        <i data-lucide="download" class="w-5 h-5"></i>
+                        Download Resume
+                    </a>
+                    <div class="flex items-center gap-4 px-4">
+                        <a href="https://linkedin.com/in/ayushi-rani09" target="_blank" class="text-slate-400 hover:text-white transition">
+                            <i data-lucide="linkedin" class="w-6 h-6"></i>
+                        </a>
+                        <a href="mailto:ayushi.r2092@gmail.com" class="text-slate-400 hover:text-white transition">
+                            <i data-lucide="mail" class="w-6 h-6"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-white/10 shadow-2xl relative z-10">
+                    <img src="https://github.com/user-attachments/assets/43ec1d13-179f-4f6f-9a63-2e0d38e29a3a" alt="Ayushi Rani" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-4 -right-4 w-64 h-64 bg-blue-500/10 blur-3xl -z-10"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold">Expertise & Skills</h3>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Manual Testing -->
+                <div class="glass-card p-8 rounded-2xl border border-white/5">
+                    <div class="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="clipboard-check" class="text-blue-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Manual Testing</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Functional</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Regression</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Smoke/Sanity</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">STLC</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Bug Life Cycle</span>
+                    </div>
+                </div>
+
+                <!-- Automation -->
+                <div class="glass-card p-8 rounded-2xl border border-white/5">
+                    <div class="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="zap" class="text-purple-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Automation (Beginner)</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Selenium</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Core Java</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Locators</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Test Scripts</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Web -->
+                <div class="glass-card p-8 rounded-2xl border border-white/5">
+                    <div class="w-12 h-12 bg-green-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i data-lucide="tool" class="text-green-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Tools & Tech</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">JIRA</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">MySQL</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Firebase</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">DevTools</span>
+                        <span class="skill-tag px-3 py-1 rounded-md text-xs">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold">Experience</h3>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="space-y-12">
+                <!-- Stratosphere IT Services -->
+                <div class="relative pl-8 border-l-2 border-slate-700">
+                    <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-600"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h4 class="text-xl font-bold">Software Tester Trainee/Junior</h4>
+                            <p class="text-blue-400 font-medium">Stratosphere IT Services</p>
+                        </div>
+                        <p class="text-slate-500 text-sm mt-2 md:mt-0">Feb 2026 — Present</p>
+                    </div>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 shrink-0"></i> Improved defect detection rate by 30% via high-quality test case design.</li>
+                        <li class="flex gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 shrink-0"></i> Logged 50+ defects using JIRA, tracking them through the full lifecycle.</li>
+                        <li class="flex gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 shrink-0"></i> Accelerated release validation by 25% through efficient regression cycles.</li>
+                        <li class="flex gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 shrink-0"></i> Collaborating in Agile sprints with continuous testing and re-testing.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold">Key Projects</h3>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:px-20">
+                <!-- Job Portal Project -->
+                <div class="glass-card rounded-2xl overflow-hidden group">
+                    <div class="h-48 bg-gradient-to-br from-blue-900/50 to-slate-800 flex items-center justify-center p-6 border-b border-white/5">
+                        <i data-lucide="briefcase" class="w-16 h-16 text-blue-400 opacity-50 group-hover:scale-110 transition duration-300"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-2xl font-bold">Job Portal Web App</h4>
+                            <span class="text-xs font-mono text-slate-500">Jan - Mar 2025</span>
+                        </div>
+                        <p class="text-slate-400 mb-6">Performed end-to-end Manual Testing. Designed 20+ test cases covering auth, job workflows, and form validations.</p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="bg-slate-800 px-3 py-1 rounded text-xs">HTML/CSS</span>
+                            <span class="bg-slate-800 px-3 py-1 rounded text-xs">JS</span>
+                            <span class="bg-slate-800 px-3 py-1 rounded text-xs">Firebase</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <span class="text-sm font-semibold text-blue-400 flex items-center gap-1"><i data-lucide="shield-check" class="w-4 h-4"></i> QA Completed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Simple Card to add more projects easily -->
+                <div class="glass-card rounded-2xl border-2 border-dashed border-white/10 flex flex-col items-center justify-center p-12 text-center group cursor-pointer hover:bg-white/5 transition">
+                    <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center mb-4 text-slate-500 group-hover:text-blue-400 group-hover:border-blue-400 transition">
+                        <i data-lucide="plus"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-500 group-hover:text-slate-300 transition">Add Your Next Project</h4>
+                    <p class="text-sm text-slate-600 mt-2">Continuous learning in progress...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certs -->
+    <section class="py-20 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-8 flex items-center gap-2"><i data-lucide="graduation-cap" class="text-blue-500"></i> Education</h3>
+                <div class="glass-card p-6 rounded-xl">
+                    <h4 class="font-bold text-lg">Bachelor of Computer Application (BCA)</h4>
+                    <p class="text-blue-400">Ambedkar DSEU Shakarpur Campus 1</p>
+                    <p class="text-slate-500 text-sm mt-1">2022 — 2025</p>
+                    <p class="mt-4 font-semibold text-white">CGPA: 9.04</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold mb-8 flex items-center gap-2"><i data-lucide="award" class="text-blue-500"></i> Certifications</h3>
+                <div class="glass-card p-6 rounded-xl flex items-center gap-4">
+                    <div class="w-12 h-12 bg-red-500/10 rounded flex items-center justify-center shrink-0">
+                        <i data-lucide="file-badge" class="text-red-400"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold">Training & Advance IT Skills</h4>
+                        <p class="text-slate-500 text-sm">Tech Mahindra Foundation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="py-20 px-6 bg-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-4xl font-bold mb-6">Let's Connect</h3>
+            <p class="text-slate-400 mb-10 text-lg">Interested in working together? I'm currently looking for new opportunities in Software Testing and Automation.</p>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
+                <a href="mailto:ayushi.r2092@gmail.com" class="glass-card flex items-center gap-3 px-8 py-4 rounded-2xl hover:bg-white/10 transition">
+                    <i data-lucide="mail" class="text-blue-400"></i>
+                    <span>ayushi.r2092@gmail.com</span>
+                </a>
+                <a href="tel:+919354681484" class="glass-card flex items-center gap-3 px-8 py-4 rounded-2xl hover:bg-white/10 transition">
+                    <i data-lucide="phone" class="text-green-400"></i>
+                    <span>+91 9354681484</span>
+                </a>
+            </div>
+
+            <div class="pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between text-slate-500 text-sm gap-4">
+                <p>© 2026 Ayushi Rani. Built with passion for Quality.</p>
+                <div class="flex gap-6">
+                    <a href="https://linkedin.com/in/ayushi-rani09" class="hover:text-blue-400 transition">LinkedIn</a>
+                    <a href="http://github.com/i-ayushi" class="hover:text-blue-400 transition">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Simple smooth scroll logic for browsers that might need it
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
